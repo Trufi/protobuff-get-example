@@ -1,0 +1,23 @@
+{
+  "name": "protobuff-get-example",
+  "description": "Protobuff get parameters example",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trufi/protobuff-get-example.git"
+  },
+  "author": {
+    "name": "Mstislav Zhivodkov",
+    "email": "stevemyz@gmail.com",
+    "url": "https://trufi.github.io/"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "compile": "pbf src/request.proto >> src/parser.js"
+  },
+  "dependencies": {
+    "pbf": "^3.1.0"
+  }
+}
